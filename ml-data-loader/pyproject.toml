@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-data-loader"
+version = "0.1.0"
+description = "A beginner-friendly ML project for learning environment setup and lazy CSV loading."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Triton Labs Intern" }]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
